@@ -1,0 +1,33 @@
+# ── Skompilowane klasy Java ──────────────────────────────────────────────────
+*.class
+
+# ── Artefakty Java Card (generowane przez build.bat / converter / scriptgen) ─
+*.cap
+*.exp
+*.jca
+
+# ── Zrzut pamięci EEPROM emulatora cref ─────────────────────────────────────
+eeprom.dat
+*.dat
+
+# ── Katalogi build ────────────────────────────────────────────────────────────
+bin/
+out/
+build/
+
+# ── Zewnętrzne zestawy narzędzi – nie commitować (za duże, licencyjne) ───────
+j2sdk1.4.2_19/
+java_card_kit-2_2_1/
+j2sdk*.zip
+java_card_kit*.zip
+
+# ── Narzędzia zewnętrzne obecne w katalogu ───────────────────────────────────
+gp.jar
+
+# ── Skrypt instalacyjny generowany przez scriptgen ────────────────────────────
+com/helloworld/javacard/helloworld_install.script
+
+# ── Pliki tymczasowe systemu ──────────────────────────────────────────────────
+Thumbs.db
+.DS_Store
+desktop.ini
